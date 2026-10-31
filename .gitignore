@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.coverage
+.pytest_cache/
+
+# Original exchange data and vendor documentation stay local.
+/data/raw/
+/data/extracted/
+*.zip
+*.7z
+*_message_*.csv
+*_orderbook_*.csv
+
+# Handwritten synthetic fixtures are safe to version.
+!/tests/fixtures/*/message.csv
+!/tests/fixtures/*/orderbook.csv
+

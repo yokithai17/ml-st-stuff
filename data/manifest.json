@@ -1,0 +1,32 @@
+{
+  "dataset": "LOBSTER official public sample",
+  "ticker": "AMZN",
+  "date": "2012-06-21",
+  "levels": 5,
+  "checked_on": "2026-10-31",
+  "sample_page": "https://php.lobsterdata.com/info/DataSamples.php",
+  "format_url": "https://php.lobsterdata.com/info/DataStructure.php",
+  "terms_url": "https://php.lobsterdata.com/termsAndConditions.php",
+  "website_terms_url": "https://php.lobsterdata.com/imprint.php",
+  "download_url": "https://php.lobsterdata.com/info/sample/LOBSTER_SampleFile_AMZN_2012-06-21_5.zip",
+  "archive_name": "LOBSTER_SampleFile_AMZN_2012-06-21_5.zip",
+  "bytes": 2523651,
+  "sha256": "23290152d0a588359ac59a969d385748112de5733065c81f5ba3ae9d770f74db",
+  "checksum_source": "Computed locally from downloaded bytes; not a vendor-published signature.",
+  "message_name": "AMZN_2012-06-21_34200000_57600000_message_5.csv",
+  "orderbook_name": "AMZN_2012-06-21_34200000_57600000_orderbook_5.csv",
+  "members": {
+    "AMZN_2012-06-21_34200000_57600000_orderbook_5.csv": {
+      "bytes": 18044120,
+      "sha256": "e2d3408318ae76200eba27cb9b7cb326aeb73e933d45af261b7db6886051caae"
+    },
+    "AMZN_2012-06-21_34200000_57600000_message_5.csv": {
+      "bytes": 6463355,
+      "sha256": "be35922a0a6e677d153b5e47dd63c0107a32ae35e3a15003eed089e19f0a882e"
+    },
+    "LOBSTER_SampleFiles_ReadMe.txt": {
+      "bytes": 4790,
+      "sha256": "fd97b5f49391e11ef52c023ef8f3ca156baac7441b4d52240339f60844244d5b"
+    }
+  }
+}

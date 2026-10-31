@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "message": "data/extracted/LOBSTER_SampleFile_AMZN_2012-06-21_5/AMZN_2012-06-21_34200000_57600000_message_5.csv",
+    "orderbook": "data/extracted/LOBSTER_SampleFile_AMZN_2012-06-21_5/AMZN_2012-06-21_34200000_57600000_orderbook_5.csv",
+    "levels": 5
+  },
+  "units": {
+    "price": "0.0001 USD",
+    "time": "exact decimal seconds since exchange-local midnight",
+    "size": "shares",
+    "mid_comparison": "ask_price_1 + bid_price_1"
+  },
+  "counts": {
+    "message_rows": 155935,
+    "orderbook_rows": 155935,
+    "paired_rows": 155935,
+    "parsed_message_rows": 155935,
+    "parsed_orderbook_rows": 155935,
+    "suspicious_rows": 1
+  },
+  "row_counts_match": true,
+  "time": {
+    "min_ns": 34200017459617,
+    "max_ns": 57599959359650,
+    "min_seconds": "34200.017459617",
+    "max_seconds": "57599.95935965",
+    "first_seconds": "34200.017459617",
+    "last_seconds": "57599.95935965"
+  },
+  "events": {
+    "1": {
+      "name": "submission",
+      "count": 77381
+    },
+    "2": {
+      "name": "partial_cancellation",
+      "count": 450
+    },
+    "3": {
+      "name": "deletion",
+      "count": 66685
+    },
+    "4": {
+      "name": "visible_execution",
+      "count": 8974
+    },
+    "5": {
+      "name": "hidden_execution",
+      "count": 2445
+    },
+    "6": {
+      "name": "cross_trade",
+      "count": 0
+    },
+    "7": {
+      "name": "trading_halt",
+      "count": 0
+    }
+  },
+  "observations": {
+    "ask_empty_rows": 0,
+    "ask_missing_levels": 0,
+    "ask_zero_size_cells": 0,
+    "bid_empty_rows": 0,
+    "bid_missing_levels": 0,
+    "bid_zero_size_cells": 0,
+    "both_sides_empty_rows": 0,
+    "crossed_rows": 0,
+    "halt_marker_rows": 0,
+    "locked_rows": 0,
+    "message_zero_size_rows": 0,
+    "one_or_both_sides_empty_rows": 0,
+    "time_ties": 7358
+  },
+  "spread": {
+    "unit": "0.0001 USD",
+    "weighting": "one observation per orderbook row",
+    "excluded_orderbook_rows": 0,
+    "count": 155935,
+    "histogram": {
+      "100": 1192,
+      "200": 1520,
+      "300": 2100,
+      "400": 2991,
+      "500": 4286,
+      "600": 4783,
+      "700": 5756,
+      "800": 7641,
+      "900": 8891,
+      "1000": 9943,
+      "1100": 10329,
+      "1200": 11701,
+      "1300": 11030,
+      "1400": 11064,
+      "1500": 10697,
+      "1600": 10016,
+      "1700": 9269,
+      "1800": 8454,
+      "1900": 5798,
+      "2000": 4604,
+      "2100": 3356,
+      "2200": 2133,
+      "2300": 1454,
+      "2400": 1222,
+      "2500": 812,
+      "2600": 626,
+      "2700": 541,
+      "2800": 359,
+      "2900": 258,
+      "3000": 405,
+      "3100": 345,
+      "3200": 269,
+      "3300": 228,
+      "3400": 229,
+      "3500": 272,
+      "3600": 209,
+      "3700": 118,
+      "3800": 116,
+      "3900": 149,
+      "4000": 117,
+      "4100": 38,
+      "4200": 51,
+      "4300": 16,
+      "4400": 69,
+      "4500": 73,
+      "4600": 35,
+      "4700": 31,
+      "4800": 34,
+      "4900": 61,
+      "5000": 60,
+      "5100": 37,
+      "5200": 33,
+      "5300": 4,
+      "5400": 1,
+      "5500": 7,
+      "5600": 40,
+      "5800": 2,
+      "5900": 2,
+      "6100": 7,
+      "6300": 4,
+      "6400": 12,
+      "6700": 3,
+      "6800": 10,
+      "6900": 7,
+      "7300": 11,
+      "7400": 2,
+      "7500": 1,
+      "7700": 1
+    },
+    "min": 100,
+    "max": 7700,
+    "mean": "1348.323339853143938179369609",
+    "p50": 1300,
+    "p95": 2300,
+    "p99": 3500
+  },
+  "mid_price": {
+    "changes": 27557,
+    "adjacent_comparisons": 155934,
+    "excluded_adjacent_pairs": 0
+  },
+  "issues": {
+    "message.time_precision_gt_ns": {
+      "row_count": 1,
+      "example_lines": [
+        67823
+      ]
+    }
+  }
+}
